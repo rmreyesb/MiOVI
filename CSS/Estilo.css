@@ -29,3 +29,7 @@ aside{
     display: inline-block;
     max-width: 27%;
 }
+
+.menu li{
+    display:inline-block ;
+}
