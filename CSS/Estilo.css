@@ -1,35 +1,351 @@
-body{
-    background-color: black;
-    color: white;
+html{
+    display: block;
+    font-size: 160px;
 }
-nav, header, .contenedor, footer{
-    max-width: 92%;
-    margin: auto;
+body{
+    color: #333;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius:0.4em; 
+    display: block;
+}
+.Social1{
+    position: fixed;
+    top: 200px;
+    left:-40px ;
+}
+.Social1 ul{
+    list-style: none;
+} 
+.Social1 ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 0;
+    transition: 0.1s ease; 
+}
+.Social1 li a:hover{
+    background-color: black; 
+}
+.icon{
+    width: 20px;
+    text-align: center;
+    font-size: 24px;
+} 
+.icon-twitter{
+    background: #00abf0;
+}
+.icon-facebook2{
+    background: #3b5998;
+}
+.icon-youtube{
+    background: #c4302b;
+}
+.icon-flickr3{
+    background: #FF0084;
+}
+.icon-instagram{
+    background: #c32aa3;
+}
+.Social1 ul li a:hover{
+    padding: 10px 25px;
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-youtube:before {
+    content: "\ea9d";
+}
+.icon-flickr3:before {
+    content: "\eaa5";
+  }
+.icon-instagram:before {
+    content: "\ea92";
+}
+header
+{
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+header div.header
+{
+    margin: 0 auto;
+    max-width: 1060px;
+}
+figure{
+    display: block;
+}
+header figure{
+    background: #fff;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    text-align: center;
+    width: 350px;
+}
+a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline 
+}
+header figure img{
+    margin-top: 15px;
+    width: 315px ;
+}
+header div.moduleTop{
+    float: right;
+    height: 100px;
+    text-align: right;
+    width: 700px;
+}
+div{
+    display: block;
+}
+.caja1{
+    border-right: 9px solid #f0b429;
+}
+.caja2{
+    color: #ffffff;
+    font-size: 19px;
+    background: linear-gradient(to right, rgba(255,255,255,1)0%, rgba(0,70,105,1)100%);
+    margin: 25px 0 25px 0;
+    overflow: hidden;
+    padding: 10px;
+    border-right: 6px solid #fa7920;
+}
+main{
+    border: solid 3px #ccc;
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 51px 12px;
+    padding-top: 45px;
+    padding-bottom: 17px;
+    width: 1030px;
+}
+main div.main{
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+main div.main div.item-page div.page-header h1, main div.main div.item-page div.page-header h2, main div.main div.blog div.page-header h1, main div.main div.blog-featured div.page-header h1, main div.main div.blog div.page-header h2{
+    border-bottom: 2px solid;
+    color:#3b5998;
+    display: block;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 15px 0;
+}
+main div.main div.icons{
+    background: #ccc;
+    font-size: .7rem;
+    max-width: 100px;
+}
+main div.main div.icons div.pull-right{
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+main h2{
+    margin-top: 0;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+strong{
+    font-weight: bold;
+}
+li a, boton{
+    color: #ffffff;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
 }
 nav{
-    background-color: brown;
+    background-color: #005883;
+    color: #fff;
+    max-width: 100%;
+    text-align: center;
+    display: block;
 }
-header{
-    background-color: darkcyan;
-}
-.contenedor{
-    background-color: burlywood;
-}
-.Central{
-    background-color: chocolate;
-    display: inline-block;
-    max-width: 65%;
-    
-}
-footer{
-    background-color: darkgreen;
-}
-aside{
-    background-color: violet;
-    display: inline-block;
-    max-width: 27%;
+nav .menu li a{
+    color: #FFF;
+    text-decoration: none;
 }
 
 .menu li{
-    display:inline-block ;
+    display: inline-block;
 }
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li a, boton{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: #005883;
+    position: absolute;
+}
+.listaDesplegable a{
+    color:white;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: #f0b429; 
+}
+
+footer{
+    text-align: center;
+    margin-top:1em; 
+    background: #333;
+    color: #FFF;
+}
+.tag-body
+{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
